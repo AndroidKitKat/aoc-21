@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
+print("To view my solutions, change your build target to the day you want!")
 
