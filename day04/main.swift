@@ -95,6 +95,8 @@ while let line = readLine() {
 // handle the last board
 squid.boards.append(Board(bingoBoard))
 
+var winningNumbers: [Int] = []
+
 outerLoop: for number in squid.numbers {
     // mark a number
     for board in squid.boards {
@@ -103,8 +105,13 @@ outerLoop: for number in squid.numbers {
     // check if we have a winner
     for board in squid.boards {
         if board.checkWinner(board.marked) || board.checkWinner(board.transpose(board.marked)) {
-            print(number * board.sumNonWinners())
-            break outerLoop
+            winningNumbers.append(number * board.sumNonWinners())
+            // remove the winning board from the rest of the boards
+            print(squid.boards.count, squid.boards.filter {$0.standard != board.standard}.count)
+            squid.boards = squid.boards.filter {$0.standard != board.standard }
         }
     }
 }
+
+print(winningNumbers.first!)
+print(winningNumbers.last!)

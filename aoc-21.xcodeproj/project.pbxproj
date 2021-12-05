@@ -80,6 +80,7 @@
 		8CED089E275B8F870077E727 /* day04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day04; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CED08A0275B8F870077E727 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8CED08A7275B91C70077E727 /* sample.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sample.txt; sourceTree = "<group>"; };
+		8CED08A8275C672B0077E727 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +189,7 @@
 			children = (
 				8CED08A0275B8F870077E727 /* main.swift */,
 				8CED08A7275B91C70077E727 /* sample.txt */,
+				8CED08A8275C672B0077E727 /* input.txt */,
 			);
 			path = day04;
 			sourceTree = "<group>";
