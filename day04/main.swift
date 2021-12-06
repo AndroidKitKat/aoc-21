@@ -2,7 +2,7 @@
 //  main.swift
 //  day04
 //
-//  Created by Michael Eisemann on 12/4/21.
+//  Created by skg on 12/4/21.
 //  Copyright © 2021 WaifuPaste Ltd. All rights reserved.
 //
 
