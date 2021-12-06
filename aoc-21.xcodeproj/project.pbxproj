@@ -94,7 +94,6 @@
 		8CED08AD275D02B80077E727 /* day05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day05; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CED08AF275D02B80077E727 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8CED08B4275D032E0077E727 /* sample.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sample.txt; sourceTree = "<group>"; };
-		8CED08B5275D5DB00077E727 /* sample.plotted */ = {isa = PBXFileReference; lastKnownFileType = text; path = sample.plotted; sourceTree = "<group>"; };
 		8CED08B6275D94340077E727 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +146,6 @@
 		8CED085E27570AF60077E727 = {
 			isa = PBXGroup;
 			children = (
-				8CED08B5275D5DB00077E727 /* sample.plotted */,
 				8CED086927570AF60077E727 /* aoc-21 */,
 				8CED0876275829740077E727 /* day01 */,
 				8CED0883275978A20077E727 /* day02 */,
